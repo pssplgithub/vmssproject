@@ -1,0 +1,1 @@
+{"Modules":["PSDscResources","ComputerManagementDsc","ActiveDirectoryDSC","StorageDsc","xWebAdministration","xPSDesiredStateConfiguration","SecurityPolicyDSC","xWindowsUpdate","xDSCFirewall","NetworkingDSC","xSystemSecurity","AZCOPYDSCDir","AppReleaseDSC","EnvironmentDSC"]}

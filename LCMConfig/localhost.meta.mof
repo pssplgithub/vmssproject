@@ -1,0 +1,25 @@
+/*
+@TargetNode='localhost'
+@GeneratedBy=psspl
+@GenerationDate=10/29/2025 11:17:30
+@GenerationHost=vmss
+*/
+
+instance of MSFT_DSCMetaConfiguration as $MSFT_DSCMetaConfiguration1ref
+{
+AllowModuleOverwrite = True;
+ ConfigurationMode = "ApplyAndAutoCorrect";
+ RefreshMode = "Push";
+
+};
+
+instance of OMI_ConfigurationDocument
+{
+ Version="2.0.0";
+ MinimumCompatibleVersion = "1.0.0";
+ CompatibleVersionAdditionalProperties= { "MSFT_DSCMetaConfiguration:StatusRetentionTimeInDays" };
+ Author="psspl";
+ GenerationDate="10/29/2025 11:17:30";
+ GenerationHost="vmss";
+ Name="LCMConfig";
+};
