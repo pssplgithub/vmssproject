@@ -81,7 +81,7 @@ Write-Warning "Your context is:`n $($Context | Format-List -Property Name,Accoun
 if ($Context)
 {
     Write-Verbose -Message "Setting SP RBAC on      : [$RoleName] on [$($context.Subscription.Name)] [$($context.Subscription.Id)]" -Verbose
-    $SecretName = 'AZURE_CREDENTIALS_{0}_BOT' -f $OrgName
+    $SecretName = 'AZURE_CREDENTIALS_BOT' -f $OrgName
     $ServicePrincipalName = "GH_${GHProject}_{0}_BOT" -f $OrgName
 
     Write-Verbose -Message "Creating GH Secret Name : [$($SecretName)] in [$($GHProject)] git Secrets" -Verbose
